@@ -1,0 +1,15 @@
+name: tcga-brca-pers-med
+channels:
+  - conda-forge
+dependencies:
+  - python
+  - pandas
+  - numpy
+  - scipy
+  - scikit-learn
+  - lifelines
+  - matplotlib
+  - jupyter
+  - openpyxl
+  - statsmodels
+  - ipykernel

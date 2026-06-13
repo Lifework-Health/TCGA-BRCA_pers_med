@@ -1,0 +1,41 @@
+# Data files
+data/raw/*
+!data/raw/.gitkeep
+data/interim/*
+!data/interim/.gitkeep
+
+# Keep small processed summaries if needed, but ignore common large outputs.
+data/processed/*.zip
+data/processed/*.tar
+data/processed/*.tar.gz
+data/processed/*.gz
+data/processed/*.h5
+data/processed/*.hdf5
+data/processed/*.rds
+data/processed/*.parquet
+data/processed/*.feather
+data/processed/*.pickle
+data/processed/*.pkl
+!data/processed/.gitkeep
+
+# Notebooks
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Generated report files
+*.pdf
+!submission/.gitkeep
