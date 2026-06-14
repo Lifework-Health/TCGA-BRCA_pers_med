@@ -8,6 +8,10 @@ The project is intentionally kept small and readable. The analysis will be devel
 
 The assignment will ask whether simple p53 and DNA-damage response modelling can help explain or predict doxorubicin response in breast cancer, and how this compares with standard survival and machine-learning approaches.
 
+## Professor Materials Review
+
+Professor-provided course materials are being reviewed in `notes/professor_materials_summary.md` before new analysis is implemented. JNK has been excluded from the assignment plan.
+
 ## Planned Questions
 
 1. In TCGA-BRCA, are p53 or DNA-damage response features associated with patient survival?
