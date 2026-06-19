@@ -2,8 +2,8 @@
 
 Processed table present: False
 Usable TCGA-BRCA patients: 0
-Deaths/events: 0
-Censored patients: 0
+Deaths/events: not computed
+Censored patients: not computed
 Age available: False
 Stage available: False
 p53/DNA-damage genes present in TCGA-BRCA: none
