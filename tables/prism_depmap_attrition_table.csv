@@ -1,0 +1,9 @@
+step_order,attrition_step,count,count_type,note
+1,Total rows/models in DepMap Model.csv,1719,unique DepMap model IDs,ID column: ModelID
+2,Models labelled as breast cancer / breast lineage,71,unique DepMap model IDs,Filtered using OncotreeLineage and OncotreePrimaryDisease
+3,Breast cancer models with expression data,71,unique DepMap model IDs,Expression table contains 1719 total model IDs
+4,Breast cancer models with selected p53/DNA-damage gene expression columns,71,unique DepMap model IDs,Genes found: 16 of 16
+5,Doxorubicin treatment rows found in PRISM treatment info,1,treatment metadata rows,Matched by searching name for doxorubicin
+6,Breast cancer models with any PRISM response data,26,unique DepMap model IDs,Any row in primary-screen-replicate-collapsed-logfold-change.csv
+7,Breast cancer models with non-missing PRISM doxorubicin LFC,26,unique DepMap model IDs,Doxorubicin LFC aggregated across 1 available treatment column(s)
+8,Final joined modelling table rows,26,unique DepMap model IDs / table rows,"Intersection of breast metadata, selected expression genes, and non-missing PRISM doxorubicin response"
