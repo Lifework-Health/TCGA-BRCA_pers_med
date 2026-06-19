@@ -42,6 +42,7 @@ The notebook writes the validation summary to `tables/prism_data_validation_summ
 - Formula checks passed:
   - `relative_abundance_percent = 100 * (2 ** prism_doxorubicin_lfc)`
   - `doxorubicin_sensitivity_score = -1 * prism_doxorubicin_lfc`
+- Formula checks were run across all 26 non-null response rows.
 - All requested p53/DNA-damage expression genes are present:
   - `ATM`, `CHEK2`, `HIPK2`, `MDM2`, `PPM1D`, `SIAH1`, `TP53`, `WSB1`
   - `CDKN1A`, `BAX`, `BBC3`, `GADD45A`, `MDM4`, `ATR`, `CHEK1`, `CASP3`

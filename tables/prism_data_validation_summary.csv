@@ -9,5 +9,6 @@ mock_cell_line_names,pass,0
 at_least_5_rows,pass,26
 lfc_values_not_all_identical,pass,False
 required_response_columns,pass,
+formula_rows_checked,info,26
 relative_abundance_formula,pass,True
 sensitivity_score_formula,pass,True
