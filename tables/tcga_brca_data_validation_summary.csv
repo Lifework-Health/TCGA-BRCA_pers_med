@@ -1,7 +1,28 @@
 check,status,detail
-processed_tcga_table_exists,blocker,data/processed/tcga_brca_survival_expression_table.csv
+processed_tcga_table_exists,pass,data/processed/tcga_brca_survival_expression_table.csv
+row_count,info,1094
+column_count,info,22
+patient_id_column,pass,patient_id
+survival_time_column,pass,overall_survival_time
+survival_event_column,pass,overall_survival_event
+clinical_covariates_present,info,"age, stage"
+p53_ddr_genes_present,info,"ATM, CHEK2, HIPK2, MDM2, PPM1D, SIAH1, TP53, WSB1, CDKN1A, BAX, BBC3, GADD45A, MDM4, ATR, CHEK1, CASP3"
+p53_ddr_genes_missing,info,
+survival_time_numeric,pass,True
+survival_time_unit,info,days
+survival_time_non_negative,pass,True
+survival_event_observed,pass,True
+survival_event_binary,pass,"[0, 1]"
+event_count,info,151
+censored_count,info,943
+missing_survival_time_count,info,0
+missing_survival_event_count,info,0
+one_row_per_patient,pass,True
+duplicate_patient_id_count,pass,0
+data_level,info,patient-level
+patient_sample_rule,info,TCGA sample IDs are converted to 12-character patient IDs; primary tumour sample type code 01 is preferred when multiple tumour samples exist.
 prism_table_exists,pass,data/processed/brca_prism_doxorubicin_modelling_table.csv
 p53_ddr_genes_in_prism,info,"ATM, CHEK2, HIPK2, MDM2, PPM1D, SIAH1, TP53, WSB1, CDKN1A, BAX, BBC3, GADD45A, MDM4, ATR, CHEK1, CASP3"
-p53_ddr_genes_in_both_tcga_and_prism,info,
-same_gene_set_for_transfer,flag,False
-ready_for_q1_q3_survival_models,blocker,False
+p53_ddr_genes_in_both_tcga_and_prism,info,"ATM, CHEK2, HIPK2, MDM2, PPM1D, SIAH1, TP53, WSB1, CDKN1A, BAX, BBC3, GADD45A, MDM4, ATR, CHEK1, CASP3"
+same_gene_set_for_transfer,pass,True
+ready_for_q1_q3_survival_models,pass,True
