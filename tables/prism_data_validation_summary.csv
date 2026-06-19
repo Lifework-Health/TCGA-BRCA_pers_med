@@ -1,0 +1,2 @@
+check,status,detail
+processed_table_exists,blocker,data/processed/brca_prism_doxorubicin_modelling_table.csv is not present. Run the data preparation notebook after placing the raw DepMap/PRISM files under data/raw/depmap_data/.
