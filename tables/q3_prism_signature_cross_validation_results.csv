@@ -1,0 +1,8 @@
+metric,value
+n_cell_lines,26
+cross_validation,leave-one-out
+model,"ElasticNet(alpha=0.1, l1_ratio=0.5)"
+cv_r2,-0.8262351604704601
+cv_rmse,1.9881583002396774
+cv_spearman_r,-0.2205128205128205
+cv_spearman_p,0.2790328260426832
