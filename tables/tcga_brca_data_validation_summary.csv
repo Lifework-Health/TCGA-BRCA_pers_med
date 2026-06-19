@@ -1,0 +1,7 @@
+check,status,detail
+processed_tcga_table_exists,blocker,data/processed/tcga_brca_survival_expression_table.csv
+prism_table_exists,pass,data/processed/brca_prism_doxorubicin_modelling_table.csv
+p53_ddr_genes_in_prism,info,"ATM, CHEK2, HIPK2, MDM2, PPM1D, SIAH1, TP53, WSB1, CDKN1A, BAX, BBC3, GADD45A, MDM4, ATR, CHEK1, CASP3"
+p53_ddr_genes_in_both_tcga_and_prism,info,
+same_gene_set_for_transfer,flag,False
+ready_for_q1_q3_survival_models,blocker,False
