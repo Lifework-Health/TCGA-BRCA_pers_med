@@ -1,2 +1,13 @@
 check,status,detail
-processed_table_exists,blocker,data/processed/brca_prism_doxorubicin_modelling_table.csv is not present. Run the data preparation notebook after placing the raw DepMap/PRISM files under data/raw/depmap_data/.
+processed_table_exists,pass,data/processed/brca_prism_doxorubicin_modelling_table.csv
+row_count,info,26
+column_count,info,24
+cell_line_id_column,pass,depmap_id
+p53_ddr_genes_present,info,"ATM, CHEK2, HIPK2, MDM2, PPM1D, SIAH1, TP53, WSB1, CDKN1A, BAX, BBC3, GADD45A, MDM4, ATR, CHEK1, CASP3"
+p53_ddr_genes_missing,info,
+mock_cell_line_names,pass,0
+at_least_5_rows,pass,26
+lfc_values_not_all_identical,pass,False
+required_response_columns,pass,
+relative_abundance_formula,pass,True
+sensitivity_score_formula,pass,True

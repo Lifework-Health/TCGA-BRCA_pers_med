@@ -1,0 +1,6 @@
+metric,value
+total DepMap models,1719
+breast cancer models,71
+breast cancer models with expression data,71
+breast cancer models with PRISM doxorubicin response,26
+final joined modelling table rows,26
