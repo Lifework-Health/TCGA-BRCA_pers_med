@@ -8,4 +8,10 @@ univariate_cox_per_1_sd,p53_S46_AUC_across_DDR,-0.16474408742365568,0.8481107185
 univariate_cox_per_1_sd,p53_S46_to_S15_ratio,-0.1887695227189426,0.8279773146656992,0.7016388066960485,0.9770645908671961,0.025441463317860492,1081,151,per 1 standard deviation for p53 features
 age_adjusted_cox_main_feature_per_1_sd,p53_S46_AUC_across_DDR,-0.17418405169693746,0.8401422538201531,0.719671643182632,0.9807792391715576,0.027402898490874336,1081,151,per 1 standard deviation for p53 features
 age_adjusted_cox_main_feature_per_1_sd,age,0.03234247610506056,1.0328711784375837,1.020322172889718,1.045574524981288,2.1521736917072585e-07,1081,151,per 1 standard deviation for p53 features
+stage_age_adjusted_cox_main_feature_per_1_sd,p53_S46_AUC_across_DDR,-0.15864468957403566,0.8532994913186359,0.7242266725617464,1.0053758712160168,0.05797440224840732,1059,142,per 1 standard deviation for p53 features
+stage_age_adjusted_cox_main_feature_per_1_sd,age,0.036629117061186316,1.0373082295616727,1.0241387091443208,1.050647098394893,1.923276758523494e-08,1059,142,per 1 standard deviation for p53 features
+stage_age_adjusted_cox_main_feature_per_1_sd,stage_numeric,0.8016375209225014,2.229188283822065,1.7904925839243915,2.775370559669074,7.525203003169861e-13,1059,142,per 1 standard deviation for p53 features
 median_high_vs_low_logrank,p53_S46_AUC_across_DDR,,,,,0.10182940390851956,1081,151,not applicable
+optimal_cutpoint_high_vs_low_logrank,p53_S46_AUC_across_DDR,,,,,0.0032014577194501436,1081,151,not applicable
+optimal_ddr_dose_cox_per_1_sd,p53_S46_DDR_1.0000,,0.8352231306922058,,,0.02702377022691073,1081,151,per 1 standard deviation for p53 features
+optimal_dose_cutpoint_high_vs_low_logrank,p53_S46_DDR_1.0000,,,,,0.0031589576544305523,1081,151,not applicable

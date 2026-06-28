@@ -1,3 +1,3 @@
-analysis,method,correlation,p_value,n_cell_lines
-q4_tcga_risk_score_vs_prism_doxorubicin_sensitivity,spearman,0.006495726495726496,0.9748762981654804,26
-q4_tcga_risk_score_vs_prism_doxorubicin_sensitivity,pearson,-0.06367597938692238,0.7572984075158716,26
+analysis,method,correlation,ci_lower,ci_upper,p_value,n_cell_lines
+q4_tcga_risk_score_vs_prism_doxorubicin_sensitivity,spearman,0.06803418803418802,-0.3496650860979508,0.46317115790960817,0.7412267471975362,26
+q4_tcga_risk_score_vs_prism_doxorubicin_sensitivity,pearson,0.042362402674280944,-0.3507449660807616,0.42277692782723225,0.8372009171470931,26
